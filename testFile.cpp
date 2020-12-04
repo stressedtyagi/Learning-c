@@ -1,4 +1,9 @@
-#include "iostream"
+#include "std_lib_facilities.h"
+
 int main(void){
-	cout << "Hello world";
+	int i = 3;
+	int j = 1;
+	int k = 4;
+	bool b = true;
+	cout << (i<j>k) << "  " << b;
 }

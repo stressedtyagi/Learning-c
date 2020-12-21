@@ -25,5 +25,28 @@ int main(){
 	// 	if (i == 0 || words[i-1]!=words[i])
 	// 		cout << words[i] << "\n";	
 	// }
+	
+//	int x;
+//	cin >> x;
+//	cout << (x != 'a');
+//	while (x != 'a'){
+//		cin >> x;
+//		cout << x << endl;
+//	}
+	
+	//Boolean vector test
+//	vector<bool> b(10);
+//	vector<bool>::reference ref = true;
+//	b[0] = ref;
+//	for(bool x : b){
+//		cout << x;
+//	}
+	
+	// vector<string> v = {"two","one"};
+	// string s = "two";
+	// cout << (s == v[0]);
+	
+	vector<char> v(10);
+	cout << v[0] << "erasd";
 	return	0;
 }

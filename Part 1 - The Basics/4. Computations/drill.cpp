@@ -1,10 +1,4 @@
 #include "../../std_lib_facilities.h"
-
-
-void findLargestSmallest(double lar, double small, double x, int n){
-			
-}
-
 int main(){
 	double x = 0 , y = 0;
 	//part 1,2,3,4,5

@@ -1,6 +1,8 @@
 #include "std_lib_facilities.h"
 #include <typeinfo>
 #include <cxxabi.h>
+
+int fact(int);
 int main(void){
 	// char ch = ' ';
     // cout << "Enter a alphabet : ";
@@ -32,13 +34,18 @@ int main(void){
     // cout << sizeof(a) << " " << sizeof(&a);
     // return 0; 
 
-    vector<int> v{1,2,3,4,5,6,6};
-    for (int &i : v)
-    {
-        i = i+1;
-    }
-    for(int i : v){
-        cout << i << " ";
-    }
-    
+    // vector<int> v{1,2,3,4,5,6,6};
+    // for (int &i : v)
+    // {
+    //     i = i+1;
+    // }
+    // for(int i : v){
+    //     cout << i << " ";
+    // }
+
+    cout << fact << endl;
+}
+
+int fact(int x){
+    return x;
 }

@@ -4,7 +4,7 @@ class Point{
     public :
         friend const istream& operator >> (istream&in, Point& p);
         friend const ifstream& operator >> (ifstream&in, Point& p);        
-        friend const ostream& operator<<(ostream&out, const Point& p);
+        friend const ostream& operator << (ostream&out, const Point& p);
     private:
         int x,y;
 };
